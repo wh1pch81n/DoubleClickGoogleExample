@@ -1,0 +1,9 @@
+[submodule "Dependencies/Mate"]
+	path = Dependencies/Mate
+	url = https://github.com/wh1pch81n/Mate.git
+[submodule "Dependencies/Cadet"]
+	path = Dependencies/Cadet
+	url = https://github.com/wh1pch81n/Cadet.git
+[submodule "Dependencies/DFP"]
+	path = Dependencies/DFP
+	url = https://github.com/wh1pch81n/DFP.git
