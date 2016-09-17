@@ -11,6 +11,7 @@
 		2F4CCFC41D8DB2D4003B3DA5 /* Mate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4CCFC11D8DB270003B3DA5 /* Mate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2F4CCFC61D8DB300003B3DA5 /* DFP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4CCFC51D8DB300003B3DA5 /* DFP.framework */; };
 		2F4CCFC71D8DB300003B3DA5 /* DFP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4CCFC51D8DB300003B3DA5 /* DFP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2F4CCFD11D8DD66A003B3DA5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4CCFD01D8DD66A003B3DA5 /* StoreKit.framework */; };
 		2FA169681D8D000E009BF609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA169671D8D000E009BF609 /* AppDelegate.swift */; };
 		2FA1696A1D8D000E009BF609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA169691D8D000E009BF609 /* ViewController.swift */; };
 		2FA1696D1D8D000E009BF609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA1696B1D8D000E009BF609 /* Main.storyboard */; };
@@ -27,7 +28,6 @@
 		2FA169C01D8D083B009BF609 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA169BF1D8D083B009BF609 /* MediaPlayer.framework */; };
 		2FA169C21D8D0846009BF609 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA169C11D8D0846009BF609 /* MessageUI.framework */; };
 		2FA169C61D8D085A009BF609 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA169C51D8D085A009BF609 /* SystemConfiguration.framework */; };
-		2FA169CA1D8D0D2D009BF609 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA169C91D8D0D2D009BF609 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +48,7 @@
 /* Begin PBXFileReference section */
 		2F4CCFC11D8DB270003B3DA5 /* Mate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4CCFC51D8DB300003B3DA5 /* DFP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DFP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4CCFD01D8DD66A003B3DA5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		2FA169641D8D000E009BF609 /* Simulation_mate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simulation_mate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA169671D8D000E009BF609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA169691D8D000E009BF609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		2FA169BF1D8D083B009BF609 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		2FA169C11D8D0846009BF609 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		2FA169C51D8D085A009BF609 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		2FA169C91D8D0D2D009BF609 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +75,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F4CCFC31D8DB2D4003B3DA5 /* Mate.framework in Frameworks */,
+				2F4CCFD11D8DD66A003B3DA5 /* StoreKit.framework in Frameworks */,
 				2F4CCFC61D8DB300003B3DA5 /* DFP.framework in Frameworks */,
 				2FA169C61D8D085A009BF609 /* SystemConfiguration.framework in Frameworks */,
-				2FA169CA1D8D0D2D009BF609 /* StoreKit.framework in Frameworks */,
 				2FA169C21D8D0846009BF609 /* MessageUI.framework in Frameworks */,
 				2FA169C01D8D083B009BF609 /* MediaPlayer.framework in Frameworks */,
 				2FA169BD1D8D082F009BF609 /* EventKit.framework in Frameworks */,
@@ -127,9 +127,9 @@
 		2FA169AE1D8D07E7009BF609 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F4CCFD01D8DD66A003B3DA5 /* StoreKit.framework */,
 				2F4CCFC51D8DB300003B3DA5 /* DFP.framework */,
 				2F4CCFC11D8DB270003B3DA5 /* Mate.framework */,
-				2FA169C91D8D0D2D009BF609 /* StoreKit.framework */,
 				2FA169C51D8D085A009BF609 /* SystemConfiguration.framework */,
 				2FA169C11D8D0846009BF609 /* MessageUI.framework */,
 				2FA169BF1D8D083B009BF609 /* MediaPlayer.framework */,
