@@ -9,7 +9,6 @@
 import UIKit
 import Mate
 import DFP
-import GoogleMobileAds
 
 class ViewController: UIViewController {
 
