@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD54F8620191500FBEFCAB57084B794C03C623F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "32237CA401D9E5648D512325C3EBF2F0B8B0C737" : 9223372036854775807,
+    "9864FF080B330FC26E105F1B7C480C0B5CBFDA95" : 9223372036854775807,
+    "FD54F8620191500FBEFCAB57084B794C03C623F7" : 9223372036854775807,
+    "77F4962D173342AAB9338F0099D44361D67B47BF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EDA36A68-8C21-4479-9C6E-D9EACBB9ED06",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "32237CA401D9E5648D512325C3EBF2F0B8B0C737" : "DoubleClickGoogleExample\/Dependencies\/Mate\/",
+    "9864FF080B330FC26E105F1B7C480C0B5CBFDA95" : "DoubleClickGoogleExample\/Dependencies\/Cadet\/",
+    "FD54F8620191500FBEFCAB57084B794C03C623F7" : "DoubleClickGoogleExample\/",
+    "77F4962D173342AAB9338F0099D44361D67B47BF" : "DoubleClickGoogleExample\/Dependencies\/DFP\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StarTrek",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StarTrek.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/Mate.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32237CA401D9E5648D512325C3EBF2F0B8B0C737"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/DFP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77F4962D173342AAB9338F0099D44361D67B47BF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/Cadet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9864FF080B330FC26E105F1B7C480C0B5CBFDA95"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/DoubleClickGoogleExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD54F8620191500FBEFCAB57084B794C03C623F7"
+    }
+  ]
+}
